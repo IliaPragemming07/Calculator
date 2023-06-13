@@ -1,0 +1,46 @@
+#Calculator
+
+
+#First_Number
+print("                              ")
+Number_1 = input(" => First Number : ")
+
+
+#Second_Number
+print("                               ")
+Number_2 = input(" => Second Number : ")
+
+
+#Choose_Operation
+print("                                                            ")
+Operation = input(" => Choose You Operation = +, -, *, /, **, // : ")
+
+
+#Calculating
+if Operation == "+" :
+    Result = int(Number_1) + int(Number_2)
+
+if Operation == "-" :
+    Result = int(Number_1) - int(Number_2)
+
+if Operation == "*" :
+    Result = int(Number_1) * int(Number_2)
+
+if Operation == "/" :
+    Result = int(Number_1) / int(Number_2)
+
+if Operation == "**" :
+    Result = int(Number_1) ** int(Number_2)
+
+if Operation == "//" :
+    Result = int(Number_1) // int(Number_2)
+
+
+#Result
+print("    ")
+print(Result)
+
+
+#Exit
+print("                       ")
+input(" Tap Enter For Exit :) ")
